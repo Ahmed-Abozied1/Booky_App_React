@@ -1,0 +1,38 @@
+.book-list{
+    min-height: 80vh;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-items: center;
+    text-align: center;
+
+    
+}
+.book{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+
+}
+img{
+    width: 15rem;
+    height: 20rem;
+    border-radius: 10px;
+    transition: all 0.5s ease;
+}
+
+img:hover{
+    transform: scale(1.1);
+}
+.button{
+    margin-top: .7rem;
+    padding: 0.8rem;
+    background: black;
+    color: #fff;
+    width: 100%;
+   border-radius: 5px;    
+    width: 244px;
+}
